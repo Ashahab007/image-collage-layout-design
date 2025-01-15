@@ -11,10 +11,10 @@ h1 {
 
 .row {
   display: flex;
-  gap: 10px;
+  gap: 5px;
   width: 100%;
   height: 400px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 img {
@@ -29,4 +29,18 @@ img {
 .vertical-collage div {
   width: 100%;
   height: 50%;
+}
+
+.row-3 div {
+  width: calc(100% / 3);
+  height: 100%;
+  /* border: 10px solid; */
+}
+
+.grid-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: 1fr 1fr; */
+  gap: 5px;
+  /* border: 500px solid cyan; */
 }
